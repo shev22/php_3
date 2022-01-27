@@ -1,7 +1,7 @@
 <?php
 
 //Ex1
-echo "Ex1";
+echo "Ex1 <br>";
 
 function cube_number($number){
 
@@ -12,7 +12,7 @@ echo cube_number(3);
 echo "<hr>";
 
 //Ex2
-echo "Ex2";
+echo "Ex2 <br>";
 
 function sum_number($first_number, $aecond_number){
       return $first_number + $aecond_number;
@@ -22,7 +22,7 @@ echo sum_number(3, 3);
 echo "<hr>";
 
 //Ex3  
-echo "Ex3"; 
+echo "Ex3 <br>"; 
 
 function daysOfWeek($day){
     switch ($day) {
@@ -54,7 +54,7 @@ daysOfWeek(7);
 echo "<hr>";
 
 //Ex4
-echo "Ex4";
+echo "Ex4 <br>";
 
 function isNegative($char){
  return ($char < 0) ? "TRUE" : "FALSE";
@@ -65,7 +65,7 @@ echo isNegative(-1);
 echo "<hr>";
 
 //Ex5
-echo "Ex5";
+echo "Ex5 <br>";
 
 function getDigitSum($char){
     $sum = 0;
@@ -80,7 +80,7 @@ echo getDigitSum(55);
 
 echo "<hr>";
 
-echo "Ex6";
+echo "Ex6 <br>";
 //Ex6
 function showTotalYear(){
     for ($i = 1; $i <= 2020; $i++) {
@@ -95,7 +95,7 @@ showTotalYear();
 echo "<hr>";
 
 //Ex7
-echo "Ex7";
+echo "Ex7 <br>";
 
 function isEven($char){
  return ($char % 2 == 0) ? "True" : "False";
@@ -103,7 +103,7 @@ function isEven($char){
 echo isEven(2);
 
 //Ex8
-echo "Ex8";
+echo "Ex8 <br>";
 
 echo "<hr>";
 
@@ -128,7 +128,7 @@ echo "<hr>";
 
 //Ex9
 //Ex10
-echo "Ex10";
+echo "Ex10 <br>";
 
 function showArray($array, $i = 0){
     if (!empty($array[$i])) {
@@ -142,7 +142,7 @@ showArray([1, 2, 3, 5]);
 echo "<hr>";
 
 //Ex11
-echo "Ex11";
+echo "Ex11 <br>";
 
 function isNumberless($char){
 
@@ -164,7 +164,7 @@ echo isNumberless(77);
 echo "<hr>";
 
 // Ex 12
-echo "Ex12";
+echo "Ex12 <br>";
 
 function car_speed($distance, $time){
     $speed = ($distance / $time);
@@ -179,7 +179,7 @@ echo car_speed(2000, 3600);
 
 echo "<hr>";
 //Ex 13
-echo "Ex13";
+echo "Ex13 <br>";
 
 function doesExist($mystring, $search){
     $pos = strpos($mystring, $search);
@@ -193,11 +193,11 @@ doesExist("mary", "ar");
 
 echo "<hr>";
 //Ex 17
-echo "Ex17";
+echo "Ex17 <br>";
 
 function sumOFones($num){
     $noOfOnes = 0;
-    for ($i = 1; $i < 100; $i++) {
+    for ($i = 0; $i < 100; $i++) {
 
         $str  = $i;
         $str .= "";
