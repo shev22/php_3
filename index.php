@@ -122,7 +122,7 @@ function translator($string){
     return str_replace($russian, $translated, $string);
 }
 
-echo translator("добавляем в массив транслитерированный символ");
+echo translator("спасибо");
 
 echo "<hr>";
 
